@@ -1,6 +1,6 @@
 {% set name = "versioneer" %}
-{% set version = "0.16" %}
-{% set sha256 = "67f9c595eba7479fc5afd867642e21b1a97d2e8cbff9684ad47d41a0db4b3048" %}
+{% set version = "0.17" %}
+{% set sha256 = "67e556474e221449187dca32969b8fc933e440f9c4c8556732814f156689cb55" %}
 
 package:
   name: {{ name|lower }}
