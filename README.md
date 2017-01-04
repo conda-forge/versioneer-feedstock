@@ -11,6 +11,18 @@ Summary: Easy VCS-based management of project version strings
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/versioneer-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/versioneer-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/versioneer-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/versioneer-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/versioneer-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/versioneer-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/versioneer/badges/version.svg)](https://anaconda.org/conda-forge/versioneer)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/versioneer/badges/downloads.svg)](https://anaconda.org/conda-forge/versioneer)
+
 Installing versioneer
 =====================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/versioneer-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/versioneer-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/versioneer-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/versioneer-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/versioneer-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/versioneer-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/versioneer/badges/version.svg)](https://anaconda.org/conda-forge/versioneer)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/versioneer/badges/downloads.svg)](https://anaconda.org/conda-forge/versioneer)
 
 
 Updating versioneer-feedstock
