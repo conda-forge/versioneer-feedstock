@@ -1,6 +1,6 @@
 {% set name = "versioneer" %}
-{% set version = "0.17" %}
-{% set sha256 = "67e556474e221449187dca32969b8fc933e440f9c4c8556732814f156689cb55" %}
+{% set version = "0.18" %}
+{% set sha256 = "ead1f78168150011189521b479d3a0dd2f55c94f5b07747b484fd693c3fbf335" %}
 
 package:
   name: {{ name|lower }}
@@ -14,6 +14,8 @@ source:
 build:
   number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
+  entry_points:
+    - versioneer = versioneer:main
 
 requirements:
   build:
