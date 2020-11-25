@@ -1,6 +1,6 @@
 {% set name = "versioneer" %}
-{% set version = "0.18" %}
-{% set sha256 = "ead1f78168150011189521b479d3a0dd2f55c94f5b07747b484fd693c3fbf335" %}
+{% set version = "0.19" %}
+{% set sha256 = "a4fed39bbebcbd2d07f8a86084773f303cb442709491955a0e6754858e47afae" %}
 
 package:
   name: {{ name|lower }}
@@ -13,25 +13,25 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - versioneer = versioneer:main
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools
   run:
-    - python
+    - python >=3.6
 
 test:
   commands:
     - versioneer version
 
 about:
-  home: https://github.com/warner/python-versioneer
+  home: https://github.com/python-versioneer/python-versioneer
   license: Public Domain
   summary: Easy VCS-based management of project version strings
 
