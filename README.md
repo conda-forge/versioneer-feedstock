@@ -1,7 +1,7 @@
 About versioneer
 ================
 
-Home: https://github.com/warner/python-versioneer
+Home: https://github.com/python-versioneer/python-versioneer
 
 Package license: Public Domain
 
