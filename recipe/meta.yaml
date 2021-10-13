@@ -1,6 +1,6 @@
 {% set name = "versioneer" %}
-{% set version = "0.20" %}
-{% set sha256 = "2e393600ec2717b79f59c984f78d935f76e46c4caef875a87b8b4ed602f2ff65" %}
+{% set version = "0.21" %}
+{% set sha256 = "64f2dbcbbed15f9a6da2b85f643997db729cf496cafdb97670fb2fa73a7d8e20" %}
 
 package:
   name: {{ name|lower }}
@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://github.com/python-versioneer/python-versioneer
-  license: Public Domain
+  license: LicenseRef-Public-Domain
   summary: Easy VCS-based management of project version strings
 
 extra:
