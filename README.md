@@ -3,7 +3,7 @@ About versioneer
 
 Home: https://github.com/python-versioneer/python-versioneer
 
-Package license: Public Domain
+Package license: LicenseRef-Public-Domain
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/versioneer-feedstock/blob/master/LICENSE.txt)
 
