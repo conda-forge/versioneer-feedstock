@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - versioneer = versioneer:main
@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://github.com/python-versioneer/python-versioneer
-  license: LicenseRef-Public-Domain
+  license: CC0-1.0
   summary: Easy VCS-based management of project version strings
 
 extra:
