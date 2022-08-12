@@ -35,7 +35,8 @@ test:
 
 about:
   home: https://github.com/python-versioneer/python-versioneer
-  license: LicenseRef-Public-Domain
+  license: CC0-1.0
+  license_file: LICENSE
   summary: Easy VCS-based management of project version strings
 
 extra:
