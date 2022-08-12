@@ -27,7 +27,10 @@ requirements:
     - python >=3.6
 
 test:
+  requires:
+    - pip
   commands:
+    - pip check
     - versioneer version
 
 about:
