@@ -1,6 +1,6 @@
 {% set name = "versioneer" %}
-{% set version = "0.24" %}
-{% set sha256 = "1b8dba9e51e2f0e04c7e8545216eecdea2d63e1bd5569448ee66c549f7e7782f" %}
+{% set version = "0.25" %}
+{% set sha256 = "9a8d5ac720c66e099ac20ba4fbc2cf00a5f2bb1614de89f44c82935ac510bae1" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - versioneer = versioneer:main
