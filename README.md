@@ -1,11 +1,11 @@
-About versioneer
-================
+About versioneer-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/versioneer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/python-versioneer/python-versioneer
 
 Package license: Unlicense
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/versioneer-feedstock/blob/main/LICENSE.txt)
 
 Summary: Easy VCS-based management of project version strings
 
